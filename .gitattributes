@@ -1,0 +1,88 @@
+# Git Attributes Configuration for Palette Face Inpainting
+
+# ============================================================================
+# Auto detect text files and perform LF normalization
+# ============================================================================
+* text=auto
+
+# ============================================================================
+# Source code
+# ============================================================================
+*.py text eol=lf
+*.ipynb text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+
+# ============================================================================
+# Documentation
+# ============================================================================
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# ============================================================================
+# Configuration files
+# ============================================================================
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+
+# ============================================================================
+# Web files
+# ============================================================================
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# ============================================================================
+# Binary files
+# ============================================================================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+
+# Model files
+*.pth binary
+*.pt binary
+*.ckpt binary
+*.state binary
+*.h5 binary
+*.pkl binary
+*.pickle binary
+
+# ============================================================================
+# GitHub Linguist overrides
+# ============================================================================
+# Exclude certain files from language statistics
+*.ipynb linguist-documentation=false
+*.ipynb linguist-detectable=true
+
+# Mark generated files
+outputs/* linguist-generated=true
+*.csv linguist-generated=true
+
+# ============================================================================
+# Git LFS (Large File Storage) - if using
+# ============================================================================
+# Uncomment if you set up Git LFS for large files
+# *.pth filter=lfs diff=lfs merge=lfs -text
+# *.pt filter=lfs diff=lfs merge=lfs -text
+# *.zip filter=lfs diff=lfs merge=lfs -text
+# *.tar.gz filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================================
+# Export ignore
+# ============================================================================
+.gitattributes export-ignore
+.gitignore export-ignore

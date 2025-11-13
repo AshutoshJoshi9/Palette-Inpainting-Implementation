@@ -1,0 +1,234 @@
+# Palette Face Inpainting - Git Ignore File
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================================
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
+
+# Jupyter Notebook outputs (optional - uncomment to ignore all outputs)
+# *.ipynb
+
+# ============================================================================
+# PyTorch
+# ============================================================================
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+experiments/
+logs/
+
+# ============================================================================
+# Dataset Files (Large Files)
+# ============================================================================
+# CelebA-HQ Dataset
+CelebA-HQ*/
+celeba_hq_256/
+*.zip
+
+# Processed datasets
+celebaHQ20_256/
+triptychs_final/
+_trip_check/
+
+# ============================================================================
+# Model Checkpoints & Weights
+# ============================================================================
+ckpt_celebahq/
+*.state
+*_Network.pth
+pretrained/
+weights/
+
+# ============================================================================
+# Temporary & Cache Files
+# ============================================================================
+*.tmp
+*.temp
+.cache/
+cache/
+tmp/
+temp/
+
+# ============================================================================
+# Output Files
+# ============================================================================
+# Generated metrics and reports
+*.csv
+*.txt
+*.tex
+*.png
+*.jpg
+*.jpeg
+
+# BUT keep example results for README
+!celebaHQ20_inpainting_triptychs_PRESENTABLE/*.png
+!examples/*.png
+!results/*.png
+
+# ============================================================================
+# Cloned Repositories
+# ============================================================================
+Palette-Image-to-Image-Diffusion-Models/
+
+# ============================================================================
+# Configuration Files
+# ============================================================================
+*.json
+!package.json
+!tsconfig.json
+!.vscode/*.json
+
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Environment Variables
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# Kaggle Specific
+# ============================================================================
+/kaggle/
+kaggle.json
+kaggle_secrets.json
+
+# ============================================================================
+# Testing
+# ============================================================================
+.pytest_cache/
+.coverage
+.hypothesis/
+htmlcov/
+.tox/
+
+# ============================================================================
+# Documentation
+# ============================================================================
+docs/_build/
+site/
+
+# ============================================================================
+# Logs
+# ============================================================================
+*.log
+logs/
+*.out
+
+# ============================================================================
+# Backup Files
+# ============================================================================
+*.bak
+*.backup
+*~.nib
+
+# ============================================================================
+# Compressed Files
+# ============================================================================
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ============================================================================
+# Custom Exclusions
+# ============================================================================
+# Add your custom exclusions below
+scratch/
+debug/
+test_outputs/
