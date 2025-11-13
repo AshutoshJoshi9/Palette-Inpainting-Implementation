@@ -315,12 +315,12 @@ If you use this implementation in your research, please cite:
 
 ### This Implementation
 ```bibtex
-@misc{palette-face-inpainting,
-  author = {Your Name},
-  title = {Palette: Image-to-Image Diffusion Models for Face Inpainting},
+@misc{joshi2025palette-inpainting,
+  author = {Ashutosh Joshi},
+  title = {Palette: Image-to-Image Diffusion Models for CelebA-HQ Face Inpainting},
   year = {2025},
   publisher = {GitHub},
-  howpublished = {\url{https://github.com/YOUR_USERNAME/palette-face-inpainting}}
+  howpublished = {\url{https://github.com/AshutoshJoshi9/Palette-Inpainting-Implementation}}
 }
 ```
 
@@ -334,7 +334,7 @@ If you use this implementation in your research, please cite:
 }
 ```
 
-### Palette Implementation
+### Palette Implementation (Janspiry)
 ```bibtex
 @misc{janspiry2021palette,
   author = {Janspiry},
